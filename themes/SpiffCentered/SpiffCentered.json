@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "userInteractionEnabled" : "NO",
       "x" : "0",
       "width" : "screen_width",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "height" : "screen_height"
     },
     "order" : [
       "Date",
@@ -46,9 +46,9 @@
         "fontName" : "SF-Pro.ttf",
         "textShadow" : {
           "y" : "0",
-          "radius" : "10",
+          "color" : "rgba(0, 0, 0, 1.00)",
           "x" : "0",
-          "color" : "rgba(0, 0, 0, 1.00)"
+          "radius" : "10"
         },
         "cornerRadius" : 0,
         "fontNameAttr" : "none"
@@ -56,9 +56,9 @@
       "appdrawer" : {
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "frame" : {
           "y" : "730",
@@ -70,12 +70,158 @@
         "backgroundColor" : "rgba(255, 255, 255, 0.00)",
         "showWhenPlaying" : "NO",
         "children" : {
+          "animation" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "300",
+              "height" : "100"
+            },
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(0, 0, 0, 0.30)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "container" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "frame" : {
+                  "y" : "15",
+                  "x" : "center",
+                  "width" : "255",
+                  "height" : "100"
+                },
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "app1_1" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "labelColor" : "rgba(255,255,255,1)",
+                    "frame" : {
+                      "y" : "0",
+                      "x" : "0",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(255,0,0,1)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.google.ios.youtube",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255,255,255,1)",
+                    "badgeImageX" : "0",
+                    "badgeImage" : "none"
+                  },
+                  "app4" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "labelColor" : "rgba(255,255,255,1)",
+                    "frame" : {
+                      "y" : "0",
+                      "x" : "65",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(255,0,0,1)",
+                    "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.apple.mobilesafari",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255,255,255,1)",
+                    "badgeImageX" : "0",
+                    "badgeImage" : "none"
+                  },
+                  "app2_1" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "labelColor" : "rgba(255,255,255,1)",
+                    "frame" : {
+                      "y" : "0",
+                      "x" : "130",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(255,0,0,1)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.tigisoftware.Filza",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255,255,255,1)",
+                    "badgeImageX" : "0",
+                    "badgeImage" : "none"
+                  },
+                  "app3_1" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "labelColor" : "rgba(255,255,255,1)",
+                    "frame" : {
+                      "y" : "0",
+                      "x" : "195",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(255,0,0,1)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.google.photos",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255,255,255,1)",
+                    "badgeImageX" : "0",
+                    "badgeImage" : "none"
+                  }
+                },
+                "blurAlpha" : "0",
+                "cornerRadius" : "5",
+                "type" : "UIView",
+                "childorder" : "app1_1,app4,app2_1,app3_1",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "borderColor" : "rgba(255,255,255,0)",
+                "userInteraction" : "YES",
+                "actions" : "none",
+                "animation" : "none",
+                "blurColor" : "dark"
+              }
+            },
+            "blurAlpha" : "0",
+            "childorder" : "container",
+            "type" : "UIView",
+            "cornerRadius" : "50",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "animation" : "none",
+            "blurColor" : "dark2"
+          },
           "weather_1" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "frame" : {
               "y" : "center",
@@ -103,152 +249,6 @@
             "childorder" : "icon",
             "type" : "UIView",
             "cornerRadius" : "35",
-            "rotate" : "0",
-            "blurIntensity" : "10",
-            "alpha" : "1",
-            "scale" : "0",
-            "gradientImage" : "none",
-            "borderColor" : "rgba(255,255,255,0)",
-            "userInteraction" : "YES",
-            "actions" : "none",
-            "animation" : "none",
-            "blurColor" : "dark2"
-          },
-          "animation" : {
-            "boxShadow" : {
-              "y" : "3",
-              "radius" : "3",
-              "x" : "0",
-              "color" : "rgba(0,0,0,0)"
-            },
-            "frame" : {
-              "y" : "0",
-              "x" : "0",
-              "width" : "300",
-              "height" : "100"
-            },
-            "borderWidth" : "0",
-            "backgroundColor" : "rgba(0, 0, 0, 0.30)",
-            "showWhenPlaying" : "NO",
-            "children" : {
-              "container" : {
-                "boxShadow" : {
-                  "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
-                  "x" : "0",
-                  "radius" : "3"
-                },
-                "frame" : {
-                  "y" : "15",
-                  "x" : "center",
-                  "width" : "255",
-                  "height" : "100"
-                },
-                "borderWidth" : "0",
-                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-                "showWhenPlaying" : "NO",
-                "children" : {
-                  "app1_1" : {
-                    "badgeImageY" : "0",
-                    "badgeImageScale" : "1",
-                    "scale" : "0",
-                    "badgeImage" : "none",
-                    "frame" : {
-                      "y" : "0",
-                      "x" : "0",
-                      "width" : "60",
-                      "height" : "60"
-                    },
-                    "badgeBGColor" : "rgba(255,0,0,1)",
-                    "backgroundColor" : "rgba(255,255,255,0)",
-                    "type" : "AppIcon",
-                    "bundleID" : "com.google.ios.youtube",
-                    "alpha" : "1",
-                    "badgeTextColor" : "rgba(255,255,255,1)",
-                    "badgeImageX" : "0",
-                    "labelColor" : "rgba(255,255,255,1)"
-                  },
-                  "app4" : {
-                    "badgeImageY" : "0",
-                    "badgeImageScale" : "1",
-                    "scale" : "0",
-                    "badgeImage" : "none",
-                    "frame" : {
-                      "y" : "0",
-                      "x" : "65",
-                      "width" : "60",
-                      "height" : "60"
-                    },
-                    "badgeBGColor" : "rgba(255,0,0,1)",
-                    "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-                    "type" : "AppIcon",
-                    "bundleID" : "com.apple.mobilesafari",
-                    "alpha" : "1",
-                    "badgeTextColor" : "rgba(255,255,255,1)",
-                    "badgeImageX" : "0",
-                    "labelColor" : "rgba(255,255,255,1)"
-                  },
-                  "app2_1" : {
-                    "badgeImageY" : "0",
-                    "badgeImageScale" : "1",
-                    "scale" : "0",
-                    "badgeImage" : "none",
-                    "frame" : {
-                      "y" : "0",
-                      "x" : "130",
-                      "width" : "60",
-                      "height" : "60"
-                    },
-                    "badgeBGColor" : "rgba(255,0,0,1)",
-                    "backgroundColor" : "rgba(255,255,255,0)",
-                    "type" : "AppIcon",
-                    "bundleID" : "com.tigisoftware.Filza",
-                    "alpha" : "1",
-                    "badgeTextColor" : "rgba(255,255,255,1)",
-                    "badgeImageX" : "0",
-                    "labelColor" : "rgba(255,255,255,1)"
-                  },
-                  "app3_1" : {
-                    "badgeImageY" : "0",
-                    "badgeImageScale" : "1",
-                    "scale" : "0",
-                    "badgeImage" : "none",
-                    "frame" : {
-                      "y" : "0",
-                      "x" : "195",
-                      "width" : "60",
-                      "height" : "60"
-                    },
-                    "badgeBGColor" : "rgba(255,0,0,1)",
-                    "backgroundColor" : "rgba(255,255,255,0)",
-                    "type" : "AppIcon",
-                    "bundleID" : "com.google.photos",
-                    "alpha" : "1",
-                    "badgeTextColor" : "rgba(255,255,255,1)",
-                    "badgeImageX" : "0",
-                    "labelColor" : "rgba(255,255,255,1)"
-                  }
-                },
-                "blurAlpha" : "0",
-                "cornerRadius" : "5",
-                "type" : "UIView",
-                "childorder" : "app1_1,app4,app2_1,app3_1",
-                "rotate" : "0",
-                "blurIntensity" : "10",
-                "alpha" : "1",
-                "scale" : "0",
-                "gradientImage" : "none",
-                "borderColor" : "rgba(255,255,255,0)",
-                "userInteraction" : "YES",
-                "actions" : "none",
-                "animation" : "none",
-                "blurColor" : "dark"
-              }
-            },
-            "blurAlpha" : "0",
-            "childorder" : "container",
-            "type" : "UIView",
-            "cornerRadius" : "50",
             "rotate" : "0",
             "blurIntensity" : "10",
             "alpha" : "1",
@@ -322,19 +322,14 @@
             "fontName" : "Helvetica",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
           "AlbumArtHolder" : {
-            "boxShadow" : {
-              "y" : "3",
-              "radius" : "3",
-              "x" : "0",
-              "color" : "rgba(0,0,0,0)"
-            },
+            "userInteraction" : "YES",
             "scale" : "0",
             "borderColor" : "rgba(255, 255, 255, 1.00)",
             "rotate" : "0",
@@ -371,58 +366,15 @@
                 "actions" : "none"
               }
             },
-            "childorder" : "albumart",
-            "cornerRadius" : "15",
-            "blurColor" : "dark",
-            "userInteraction" : "YES"
-          },
-          "nextHolder" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
-            "scale" : "0",
-            "borderColor" : "rgba(255,255,255,0)",
-            "rotate" : "0",
-            "actions" : "nextTrack",
-            "frame" : {
-              "y" : "157",
-              "x" : "165",
-              "width" : "20",
-              "height" : "30"
-            },
-            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-            "blurAlpha" : "0",
-            "type" : "UIView",
-            "animation" : "none",
-            "gradientImage" : "none",
-            "borderWidth" : "0",
-            "alpha" : "1",
-            "showWhenPlaying" : "NO",
-            "children" : {
-              "nextButton" : {
-                "pauseImage" : "none",
-                "frame" : {
-                  "y" : "0",
-                  "x" : "0",
-                  "width" : "view_width",
-                  "height" : "view_height"
-                },
-                "isAlbumArt" : "0",
-                "contentMode" : "scaleAspectFit",
-                "animation" : "none",
-                "cornerRadius" : "0",
-                "imageURL" : "IMG_0202.PNG",
-                "type" : "UIImageView",
-                "actions" : "none"
-              }
-            },
-            "childorder" : "nextButton",
-            "cornerRadius" : "5",
-            "blurColor" : "dark",
-            "userInteraction" : "YES"
+            "childorder" : "albumart",
+            "cornerRadius" : "15",
+            "blurColor" : "dark"
           },
           "title" : {
             "borderColor" : "rgba(255,255,255,1)",
@@ -449,14 +401,14 @@
             "fontName" : "Helvetica",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
           "gradient" : {
-            "userInteraction" : "YES",
+            "blurColor" : "dark",
             "scale" : "0",
             "borderColor" : "rgba(255, 255, 255, 0.00)",
             "rotate" : "0",
@@ -495,21 +447,16 @@
             },
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "childorder" : "albumart_1",
             "cornerRadius" : "15",
-            "blurColor" : "dark"
+            "userInteraction" : "YES"
           },
           "playHolder" : {
-            "boxShadow" : {
-              "y" : "3",
-              "radius" : "3",
-              "x" : "0",
-              "color" : "rgba(0,0,0,0)"
-            },
+            "userInteraction" : "YES",
             "scale" : "0",
             "borderColor" : "rgba(255,255,255,0)",
             "rotate" : "0",
@@ -546,18 +493,18 @@
                 "actions" : "none"
               }
             },
-            "childorder" : "playButton",
-            "cornerRadius" : "5",
-            "blurColor" : "dark",
-            "userInteraction" : "YES"
-          },
-          "prevHolder" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
+            "childorder" : "playButton",
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          },
+          "prevHolder" : {
+            "userInteraction" : "YES",
             "scale" : "0",
             "borderColor" : "rgba(255,255,255,0)",
             "rotate" : "0",
@@ -594,40 +541,80 @@
                 "actions" : "none"
               }
             },
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
             "childorder" : "nextButton_1",
             "cornerRadius" : "5",
-            "blurColor" : "dark",
-            "userInteraction" : "YES"
+            "blurColor" : "dark"
           },
-          "TimeElapsed" : {
-            "gradientImage" : "none",
+          "nextHolder" : {
+            "userInteraction" : "YES",
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "nextTrack",
             "frame" : {
-              "y" : "-5",
-              "x" : "0",
-              "width" : "200",
-              "height" : "15"
+              "y" : "157",
+              "x" : "165",
+              "width" : "20",
+              "height" : "30"
             },
-            "backColor" : "rgba(0, 0, 0, 0.00)",
-            "type" : "ElapsedBar",
-            "innerColor" : "rgba(0, 0, 0, 1.00)",
-            "radius" : "5"
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "nextButton" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "view_width",
+                  "height" : "view_height"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "animation" : "none",
+                "cornerRadius" : "0",
+                "imageURL" : "IMG_0202.PNG",
+                "type" : "UIImageView",
+                "actions" : "none"
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "childorder" : "nextButton",
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
           }
         },
-        "childorder" : "artist,nextHolder,title,playHolder,prevHolder,gradient,TimeElapsed,AlbumArtHolder",
+        "childorder" : "artist,nextHolder,title,playHolder,prevHolder,gradient,AlbumArtHolder",
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
-        "cornerRadius" : "15",
-        "blurColor" : "dark"
+        "blurColor" : "dark",
+        "cornerRadius" : "15"
       },
       "app3" : {
         "badgeImageY" : "0",
         "badgeImageScale" : "1",
         "scale" : ".80",
-        "badgeImageX" : "0",
+        "badgeImage" : "none",
         "frame" : {
           "y" : "738",
           "x" : "230",
@@ -640,11 +627,11 @@
         "bundleID" : "org.coolstar.SileoStore",
         "alpha" : "1",
         "badgeTextColor" : "rgba(255,255,255,1)",
-        "labelColor" : "rgba(255,255,255,0)",
-        "badgeImage" : "none"
+        "badgeImageX" : "0",
+        "labelColor" : "rgba(255,255,255,0)"
       },
       "appshadow1" : {
-        "cornerRadius" : "25",
+        "userInteraction" : "YES",
         "borderColor" : "rgba(255,255,255,0)",
         "scale" : "0",
         "rotate" : "0",
@@ -665,17 +652,17 @@
         "alpha" : "1",
         "showWhenPlaying" : "NO",
         "childorder" : "none",
+        "cornerRadius" : "25",
         "boxShadow" : {
           "y" : "5",
-          "color" : "rgba(0, 0, 0, 1.00)",
+          "radius" : "25",
           "x" : "5",
-          "radius" : "25"
+          "color" : "rgba(0, 0, 0, 1.00)"
         },
-        "blurColor" : "dark",
-        "userInteraction" : "YES"
+        "blurColor" : "dark"
       },
       "appshadow3" : {
-        "cornerRadius" : "25",
+        "userInteraction" : "YES",
         "borderColor" : "rgba(255,255,255,0)",
         "scale" : "0",
         "rotate" : "0",
@@ -696,17 +683,17 @@
         "alpha" : "1",
         "showWhenPlaying" : "NO",
         "childorder" : "none",
+        "cornerRadius" : "25",
         "boxShadow" : {
           "y" : "5",
-          "color" : "rgba(0, 0, 0, 1.00)",
+          "radius" : "25",
           "x" : "5",
-          "radius" : "25"
+          "color" : "rgba(0, 0, 0, 1.00)"
         },
-        "blurColor" : "dark",
-        "userInteraction" : "YES"
+        "blurColor" : "dark"
       },
       "button" : {
-        "userInteraction" : "YES",
+        "cornerRadius" : "5",
         "borderColor" : "rgba(255,255,255,0)",
         "scale" : "0",
         "rotate" : "0",
@@ -730,19 +717,19 @@
         "showWhenPlaying" : "NO",
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "childorder" : "none",
         "blurColor" : "dark",
-        "cornerRadius" : "5"
+        "userInteraction" : "YES"
       },
       "app2" : {
         "badgeImageY" : "0",
         "badgeImageScale" : "1",
         "scale" : ".80",
-        "badgeImageX" : "0",
+        "badgeImage" : "none",
         "frame" : {
           "y" : "738",
           "x" : "165",
@@ -755,8 +742,8 @@
         "bundleID" : "com.google.ios.youtube",
         "alpha" : "1",
         "badgeTextColor" : "rgba(255,255,255,1)",
-        "labelColor" : "rgba(255,255,255,0)",
-        "badgeImage" : "none"
+        "badgeImageX" : "0",
+        "labelColor" : "rgba(255,255,255,0)"
       },
       "weather" : {
         "borderColor" : "rgba(255,255,255,1)",
@@ -783,9 +770,9 @@
         "fontName" : "Futura-Bold",
         "textShadow" : {
           "y" : "0",
-          "radius" : "3",
+          "color" : "rgba(0, 0, 0, 1.00)",
           "x" : "0",
-          "color" : "rgba(0, 0, 0, 1.00)"
+          "radius" : "3"
         },
         "fontNameAttr" : "none"
       },
@@ -793,7 +780,7 @@
         "badgeImageY" : "0",
         "badgeImageScale" : "1",
         "scale" : ".80",
-        "badgeImageX" : "0",
+        "badgeImage" : "none",
         "frame" : {
           "y" : "738",
           "x" : "100",
@@ -806,8 +793,8 @@
         "bundleID" : "com.apple.mobilesafari",
         "alpha" : "1",
         "badgeTextColor" : "rgba(255,255,255,1)",
-        "labelColor" : "rgba(255,255,255,0)",
-        "badgeImage" : "none"
+        "badgeImageX" : "0",
+        "labelColor" : "rgba(255,255,255,0)"
       },
       "Date" : {
         "borderColor" : "rgba(255,255,255,1)",
@@ -834,14 +821,14 @@
         "fontName" : "Arial-BoldMT",
         "textShadow" : {
           "y" : "0",
-          "radius" : "5",
+          "color" : "rgba(0, 0, 0, 1.00)",
           "x" : "0",
-          "color" : "rgba(0, 0, 0, 1.00)"
+          "radius" : "5"
         },
         "fontNameAttr" : "none"
       },
       "appshadow2" : {
-        "cornerRadius" : "25",
+        "userInteraction" : "YES",
         "borderColor" : "rgba(255,255,255,0)",
         "scale" : "0",
         "rotate" : "0",
@@ -862,14 +849,14 @@
         "alpha" : "1",
         "showWhenPlaying" : "NO",
         "childorder" : "none",
+        "cornerRadius" : "25",
         "boxShadow" : {
           "y" : "5",
-          "color" : "rgba(0, 0, 0, 1.00)",
+          "radius" : "25",
           "x" : "5",
-          "radius" : "25"
+          "color" : "rgba(0, 0, 0, 1.00)"
         },
-        "blurColor" : "dark",
-        "userInteraction" : "YES"
+        "blurColor" : "dark"
       }
     }
   }

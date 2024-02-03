@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "height" : "screen_height",
       "userInteractionEnabled" : "NO",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "order" : [
       "button",
@@ -15,7 +15,7 @@
     "type" : "UIView",
     "children" : {
       "Music_Box" : {
-        "blurColor" : "dark",
+        "userInteraction" : "YES",
         "scale" : "0",
         "borderColor" : "rgba(255, 255, 255, 0.64)",
         "rotate" : "0",
@@ -52,7 +52,7 @@
             "imageFolder" : "none"
           },
           "AlbumArtHolder" : {
-            "cornerRadius" : "5",
+            "userInteraction" : "YES",
             "scale" : "0",
             "borderColor" : "rgba(255, 255, 255, 0.00)",
             "rotate" : "0",
@@ -96,9 +96,9 @@
                 "fontName" : "Helvetica",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
                 "fontNameAttr" : "none"
               },
@@ -127,9 +127,9 @@
                 "fontName" : "Helvetica",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "fontNameAttr" : "none"
               },
@@ -152,16 +152,16 @@
             },
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(153, 54, 34, 0.00)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(153, 54, 34, 0.00)"
             },
+            "cornerRadius" : "5",
             "childorder" : "Artist,songname,AlbumArt",
-            "blurColor" : "dark",
-            "userInteraction" : "YES"
+            "blurColor" : "dark"
           },
           "Label" : {
-            "childorder" : "LabelName,Red,Yellow,Green",
+            "userInteraction" : "YES",
             "scale" : "0",
             "borderColor" : "rgba(255,255,255,0)",
             "rotate" : "0",
@@ -205,9 +205,9 @@
                 "fontName" : "Helvetica",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
                 "fontNameAttr" : "none"
               },
@@ -270,15 +270,15 @@
                 "actions" : "animation"
               }
             },
+            "childorder" : "LabelName,Red,Yellow,Green",
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "cornerRadius" : "0",
-            "blurColor" : "dark",
-            "userInteraction" : "YES"
+            "blurColor" : "dark"
           },
           "playpause" : {
             "pauseImage" : "pausec.PNG",
@@ -317,9 +317,9 @@
           "blur" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "frame" : {
               "y" : "0",
@@ -349,16 +349,16 @@
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0, 0, 0, 0.00)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0, 0, 0, 0.00)"
         },
         "childorder" : "playpause,prev,next,AlbumArtHolder,Label,blur",
-        "cornerRadius" : "15",
-        "userInteraction" : "YES"
+        "blurColor" : "dark",
+        "cornerRadius" : "15"
       },
       "button" : {
-        "blurColor" : "dark",
+        "userInteraction" : "YES",
         "borderColor" : "rgba(255,255,255,0)",
         "scale" : "0",
         "rotate" : "0",
@@ -382,20 +382,20 @@
         "showWhenPlaying" : "NO",
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
-        "childorder" : "none",
-        "userInteraction" : "YES"
+        "blurColor" : "dark",
+        "childorder" : "none"
       },
       "time-datecontainer" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "frame" : {
           "y" : "100",
@@ -433,9 +433,9 @@
             "fontName" : "DosisBold.ttf",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
@@ -464,9 +464,9 @@
             "fontName" : "Nunito-ExtraBold.ttf",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
@@ -495,9 +495,9 @@
             "fontName" : "DosisBold.ttf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none"
           }

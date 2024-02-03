@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "container",
@@ -16,9 +16,9 @@
       "container" : {
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0, 0, 0, 0.00)",
           "x" : "0",
-          "color" : "rgba(0, 0, 0, 0.00)"
+          "radius" : "3"
         },
         "frame" : {
           "y" : "500",
@@ -47,19 +47,6 @@
             "type" : "UIImageView",
             "actions" : "none",
             "imageFolder" : "none"
-          },
-          "elapsed" : {
-            "gradientImage" : "none",
-            "frame" : {
-              "y" : "0",
-              "x" : "0",
-              "width" : "280",
-              "height" : "100"
-            },
-            "backColor" : "rgba(0, 0, 0, 0.00)",
-            "type" : "ElapsedBar",
-            "innerColor" : "rgba(255, 255, 255, 0.76)",
-            "radius" : "15"
           },
           "album art2" : {
             "pauseImage" : "none",
@@ -119,18 +106,18 @@
             "fontName" : "Nunito-Bold.ttf",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "animationDelay" : "3"
           },
           "blur" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "frame" : {
               "y" : "0",
@@ -160,9 +147,9 @@
           "playcontainer" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0, 0, 0, 0.88)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 0.88)"
+              "radius" : "3"
             },
             "frame" : {
               "y" : "25",
@@ -211,9 +198,9 @@
           "prevcontainer" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0, 0, 0, 0.88)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 0.88)"
+              "radius" : "3"
             },
             "frame" : {
               "y" : "25",
@@ -262,9 +249,9 @@
           "nextcontainer" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0, 0, 0, 0.88)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 0.88)"
+              "radius" : "3"
             },
             "frame" : {
               "y" : "25",
@@ -314,7 +301,7 @@
         "blurAlpha" : "0",
         "cornerRadius" : "0",
         "type" : "UIView",
-        "childorder" : "title-artist,playcontainer,prevcontainer,nextcontainer,blur,elapsed,album art3,album_art,album art2",
+        "childorder" : "title-artist,playcontainer,prevcontainer,nextcontainer,blur,album art3,album_art,album art2",
         "rotate" : "0",
         "blurIntensity" : "10",
         "alpha" : "1",
@@ -329,9 +316,9 @@
       "clockcontainer" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "frame" : {
           "y" : "100",
@@ -369,9 +356,9 @@
             "fontName" : "DosisBold.ttf",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
@@ -400,9 +387,9 @@
             "fontName" : "Nunito-Bold.ttf",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
@@ -431,9 +418,9 @@
             "fontName" : "DosisBold.ttf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none"
           }
