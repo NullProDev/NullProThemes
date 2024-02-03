@@ -1,0 +1,239 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "order" : [
+      "condition",
+      "time_label",
+      "battery",
+      "circlebgbattery",
+      "date",
+      "batterybaf",
+      "Charging"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "condition" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "460",
+          "x" : "39",
+          "width" : "353",
+          "height" : "40"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : "0",
+        "dataAttr" : "none",
+        "textColor" : "rgba(51, 51, 51, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "IT'S [condition]",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "20",
+        "fontName" : "Archive-Regular.ttf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      },
+      "batterybaf" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "550",
+          "x" : "87",
+          "width" : "303",
+          "height" : "25"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : "0",
+        "dataAttr" : "none",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "BATTERY [batterypercent]%",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "10",
+        "fontName" : "Archive-Regular.ttf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      },
+      "time_label" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "424",
+          "x" : "39",
+          "width" : "350",
+          "height" : "45"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : "0",
+        "dataAttr" : "none",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[hour]:[minute] [ampm]",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "35",
+        "fontName" : "Archive-Regular.ttf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      },
+      "date" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "503",
+          "x" : "38",
+          "width" : "352",
+          "height" : "30"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : "1",
+        "dataAttr" : "none",
+        "textColor" : "rgba(51, 51, 51, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "",
+        "data" : "[date] [shortmonth] | [day] | [year]",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "14",
+        "fontName" : "Gilroy-Light.otf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      },
+      "Charging" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "563",
+          "x" : "87",
+          "width" : "302",
+          "height" : "25"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : "0",
+        "dataAttr" : "none",
+        "textColor" : "rgba(51, 51, 51, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[ischarging]",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "10",
+        "fontName" : "Gilroy-Light.otf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      },
+      "battery" : {
+        "radius" : "25",
+        "lowColor" : "rgba(223, 232, 202, 1.00)",
+        "backColor" : "rgba(193, 218, 155, 1.00)",
+        "frame" : {
+          "y" : "542",
+          "x" : "33",
+          "width" : "153",
+          "height" : "53"
+        },
+        "gradientImage" : "none",
+        "type" : "BatteryBar",
+        "midColor" : "rgba(221, 232, 199, 1.00)",
+        "innerColor" : "rgba(218, 232, 196, 1.00)"
+      },
+      "circlebgbattery" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "frame" : {
+          "y" : "551",
+          "x" : "44",
+          "width" : "35",
+          "height" : "35"
+        },
+        "hideWhenPlaying" : "NO",
+        "borderWidth" : "5",
+        "backgroundColor" : "rgba(255, 255, 255, 0.40)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "bolt" : {
+            "pauseImage" : "none",
+            "frame" : {
+              "y" : "-3",
+              "x" : "-2",
+              "width" : "40",
+              "height" : "40"
+            },
+            "isAlbumArt" : "0",
+            "contentMode" : "scaleAspectFit",
+            "animation" : "none",
+            "cornerRadius" : "0",
+            "imageURL" : "boltBlack.png",
+            "type" : "UIImageView",
+            "actions" : "none",
+            "imageFolder" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "17",
+        "type" : "UIView",
+        "childorder" : "circlebgbattery,bolt",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "scale" : "0.9",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.05)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
