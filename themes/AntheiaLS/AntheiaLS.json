@@ -1,0 +1,346 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "order" : [
+      "Antheia",
+      "timelabel",
+      "date",
+      "battery",
+      "circle3",
+      "circle2",
+      "circle"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "circle" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "frame" : {
+          "y" : "179",
+          "x" : "276",
+          "width" : "15",
+          "height" : "15"
+        },
+        "hideWhenPlaying" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(210, 239, 253, 0.30)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "circlein" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "15",
+              "height" : "15"
+            },
+            "hideWhenPlaying" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(210, 239, 253, 0.30)",
+            "showWhenPlaying" : "NO",
+            "blurAlpha" : "0",
+            "cornerRadius" : "7",
+            "type" : "UIView",
+            "childorder" : "none",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0.45",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "animation" : "none",
+            "blurColor" : "dark"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "7",
+        "type" : "UIView",
+        "childorder" : "circlein",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "0.6",
+        "scale" : "0.75",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "Antheia" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "frame" : {
+          "y" : "160",
+          "x" : "255",
+          "width" : "137",
+          "height" : "150"
+        },
+        "hideWhenPlaying" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 1.00)",
+        "showWhenPlaying" : "NO",
+        "blurAlpha" : "1",
+        "cornerRadius" : "14",
+        "type" : "UIView",
+        "childorder" : "none",
+        "rotate" : "0",
+        "blurIntensity" : "12",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "light"
+      },
+      "timelabel" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "176",
+          "x" : "294",
+          "width" : "95",
+          "height" : "20"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "fontColorAttr" : "none",
+        "numberOfLines" : "1",
+        "data" : "[hour]:[minute]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "12",
+        "fontName" : "Reef.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "date" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "lowercase",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "224",
+          "x" : "294",
+          "width" : "95",
+          "height" : "20"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "fontColorAttr" : "none",
+        "numberOfLines" : "1",
+        "data" : "[shortday], [shortmonth] [date]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "12",
+        "fontName" : "Reef.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "battery" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "lowercase",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "270",
+          "x" : "294",
+          "width" : "95",
+          "height" : "20"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "fontColorAttr" : "none",
+        "numberOfLines" : "1",
+        "data" : "[ischarging] [batterypercent]%",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "12",
+        "fontName" : "Reef.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "circle3" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "frame" : {
+          "y" : "273",
+          "x" : "276",
+          "width" : "15",
+          "height" : "15"
+        },
+        "hideWhenPlaying" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(124, 194, 112, 0.30)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "circlein_1_1" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "15",
+              "height" : "15"
+            },
+            "hideWhenPlaying" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(100, 196, 102, 0.30)",
+            "showWhenPlaying" : "NO",
+            "blurAlpha" : "0",
+            "cornerRadius" : "7",
+            "type" : "UIView",
+            "childorder" : "none",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0.45",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "animation" : "none",
+            "blurColor" : "dark"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "7",
+        "type" : "UIView",
+        "childorder" : "circlein_1_1",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "0.6",
+        "scale" : "0.75",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "circle2" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "frame" : {
+          "y" : "227",
+          "x" : "276",
+          "width" : "15",
+          "height" : "15"
+        },
+        "hideWhenPlaying" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(240, 208, 96, 0.30)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "circlein_1" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "15",
+              "height" : "15"
+            },
+            "hideWhenPlaying" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(247, 206, 70, 0.31)",
+            "showWhenPlaying" : "NO",
+            "blurAlpha" : "0",
+            "cornerRadius" : "7",
+            "type" : "UIView",
+            "childorder" : "none",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0.45",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "animation" : "none",
+            "blurColor" : "dark"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "7",
+        "type" : "UIView",
+        "childorder" : "circlein_1",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "0.6",
+        "scale" : "0.75",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
