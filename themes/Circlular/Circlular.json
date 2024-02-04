@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
       "x" : "0",
-      "width" : "screen_width"
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "dock",
@@ -30,7 +30,7 @@
           "height" : "100"
         },
         "hideWhenPlaying" : "NO",
-        "borderWidth" : "2",
+        "borderWidth" : "3",
         "backgroundColor" : "rgba(255,255,255,0.3)",
         "showWhenPlaying" : "NO",
         "children" : {
@@ -69,8 +69,8 @@
                 "bundleID" : "com.apple.news",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                "labelColor" : "rgba(255, 255, 255, 0.00)",
-                "badgeImageX" : "0"
+                "badgeImageX" : "0",
+                "labelColor" : "rgba(255, 255, 255, 0.00)"
               },
               "appdock2" : {
                 "badgeImageY" : "0",
@@ -89,8 +89,8 @@
                 "bundleID" : "com.apple.mobilesafari",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                "labelColor" : "rgba(255, 255, 255, 0.00)",
-                "badgeImageX" : "0"
+                "badgeImageX" : "0",
+                "labelColor" : "rgba(255, 255, 255, 0.00)"
               },
               "musiccont" : {
                 "boxShadow" : {
@@ -131,7 +131,7 @@
                     "badgeImageY" : "0",
                     "badgeImageScale" : "0",
                     "scale" : "0",
-                    "badgeImageX" : "0",
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
                     "frame" : {
                       "y" : "0",
                       "x" : "0",
@@ -144,7 +144,7 @@
                     "bundleID" : "com.apple.Music",
                     "alpha" : "0",
                     "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0",
                     "badgeImage" : "none"
                   }
                 },
@@ -180,8 +180,8 @@
                 "bundleID" : "com.apple.iMovie",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                "labelColor" : "rgba(255, 255, 255, 0.00)",
-                "badgeImageX" : "0"
+                "badgeImageX" : "0",
+                "labelColor" : "rgba(255, 255, 255, 0.00)"
               }
             },
             "blurAlpha" : "0",
@@ -229,7 +229,7 @@
           "height" : "300"
         },
         "hideWhenPlaying" : "NO",
-        "borderWidth" : "2",
+        "borderWidth" : "4",
         "backgroundColor" : "rgba(255,255,255,0.3)",
         "showWhenPlaying" : "NO",
         "children" : {
@@ -237,7 +237,7 @@
             "badgeImageY" : "0",
             "badgeImageScale" : "1",
             "scale" : "0",
-            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
             "frame" : {
               "y" : "195",
               "x" : "40",
@@ -250,14 +250,14 @@
             "bundleID" : "com.valvesoftware.Steam",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImageX" : "0",
             "badgeImage" : "none"
           },
           "app3" : {
             "badgeImageY" : "0",
             "badgeImageScale" : "1",
             "scale" : "0",
-            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
             "frame" : {
               "y" : "50",
               "x" : "40",
@@ -270,7 +270,7 @@
             "bundleID" : "com.apple.AppStore",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImageX" : "0",
             "badgeImage" : ""
           },
           "inner" : {
@@ -293,7 +293,7 @@
             "badgeImageY" : "0",
             "badgeImageScale" : "1",
             "scale" : "0",
-            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
             "frame" : {
               "y" : "195",
               "x" : "200",
@@ -306,7 +306,7 @@
             "bundleID" : "com.apple.calculator",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImageX" : "0",
             "badgeImage" : "none"
           },
           "app4" : {
@@ -326,8 +326,8 @@
             "bundleID" : "com.apple.Music",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0"
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
           },
           "app1" : {
             "badgeImageY" : "0",
@@ -346,8 +346,8 @@
             "bundleID" : "com.apple.Preferences",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0"
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
           },
           "app8" : {
             "badgeImageY" : "0",
@@ -366,8 +366,8 @@
             "bundleID" : "com.google.ios.youtube",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0"
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
           },
           "app5" : {
             "badgeImageY" : "0",
@@ -386,14 +386,14 @@
             "bundleID" : "com.google.Gmail",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0"
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
           },
           "app2" : {
             "badgeImageY" : "0",
             "badgeImageScale" : "1",
             "scale" : "0",
-            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
             "frame" : {
               "y" : "50",
               "x" : "200",
@@ -406,7 +406,7 @@
             "bundleID" : "com.apple.facetime",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImageX" : "0",
             "badgeImage" : "none"
           }
         },
@@ -428,250 +428,6 @@
           "battery" : "{speed:0.2,alpha:0,}"
         },
         "blurColor" : "dark"
-      },
-      "page2" : {
-        "boxShadow" : {
-          "y" : "3",
-          "color" : "rgba(0,0,0,0)",
-          "x" : "0",
-          "radius" : "3"
-        },
-        "frame" : {
-          "y" : "center",
-          "x" : "center",
-          "width" : "300",
-          "height" : "300"
-        },
-        "hideWhenPlaying" : "NO",
-        "borderWidth" : "2",
-        "backgroundColor" : "rgba(255,255,255,0.3)",
-        "showWhenPlaying" : "NO",
-        "children" : {
-          "app6_1" : {
-            "badgeImageY" : "0",
-            "badgeImageScale" : "1",
-            "scale" : "0",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "frame" : {
-              "y" : "190",
-              "x" : "40",
-              "width" : "60",
-              "height" : "60"
-            },
-            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "type" : "AppIcon",
-            "bundleID" : "com.apple.shortcuts",
-            "alpha" : "1",
-            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0",
-            "badgeImage" : "none"
-          },
-          "app3_1" : {
-            "badgeImageY" : "0",
-            "badgeImageScale" : "1",
-            "scale" : "0",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "frame" : {
-              "y" : "45",
-              "x" : "40",
-              "width" : "60",
-              "height" : "60"
-            },
-            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "type" : "AppIcon",
-            "bundleID" : "com.apple.DocumentsApp",
-            "alpha" : "1",
-            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0",
-            "badgeImage" : "none"
-          },
-          "app7_1" : {
-            "badgeImageY" : "0",
-            "badgeImageScale" : "1",
-            "scale" : "0",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "frame" : {
-              "y" : "190",
-              "x" : "200",
-              "width" : "60",
-              "height" : "60"
-            },
-            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "type" : "AppIcon",
-            "bundleID" : "com.apple.tips",
-            "alpha" : "1",
-            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0",
-            "badgeImage" : "none"
-          },
-          "app4_1" : {
-            "badgeImageY" : "0",
-            "badgeImageScale" : "1",
-            "scale" : "0",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "frame" : {
-              "y" : "center",
-              "x" : "230",
-              "width" : "60",
-              "height" : "60"
-            },
-            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "type" : "AppIcon",
-            "bundleID" : "com.apple.calculator",
-            "alpha" : "1",
-            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0",
-            "badgeImage" : "none"
-          },
-          "app1_1" : {
-            "badgeImageY" : "0",
-            "badgeImageScale" : "1",
-            "scale" : "0",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "frame" : {
-              "y" : "10",
-              "x" : "center",
-              "width" : "60",
-              "height" : "60"
-            },
-            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "type" : "AppIcon",
-            "bundleID" : "com.apple.mobilephone",
-            "alpha" : "1",
-            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0",
-            "badgeImage" : "none"
-          },
-          "app8_1" : {
-            "badgeImageY" : "0",
-            "badgeImageScale" : "1",
-            "scale" : "0",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "frame" : {
-              "y" : "230",
-              "x" : "center",
-              "width" : "60",
-              "height" : "60"
-            },
-            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "type" : "AppIcon",
-            "bundleID" : "com.apple.Health",
-            "alpha" : "1",
-            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0",
-            "badgeImage" : "none"
-          },
-          "inner_1" : {
-            "ringBackground" : "YES",
-            "alpha" : "1",
-            "ringWidth" : "5",
-            "frame" : {
-              "y" : "center",
-              "x" : "center",
-              "width" : "100",
-              "height" : "50"
-            },
-            "ringColor" : "rgba(100, 196, 102, 1.00)",
-            "ringBackgroundColor" : "rgba(0, 0, 0, 0.19)",
-            "ringCap" : "round",
-            "type" : "CircleProgress",
-            "ringValue" : "batteryValue"
-          },
-          "app5_1" : {
-            "badgeImageY" : "0",
-            "badgeImageScale" : "1",
-            "scale" : "0",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "frame" : {
-              "y" : "center",
-              "x" : "10",
-              "width" : "60",
-              "height" : "60"
-            },
-            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "type" : "AppIcon",
-            "bundleID" : "com.apple.Maps",
-            "alpha" : "1",
-            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0",
-            "badgeImage" : "none"
-          },
-          "app2_1" : {
-            "badgeImageY" : "0",
-            "badgeImageScale" : "1",
-            "scale" : "0",
-            "labelColor" : "rgba(255, 255, 255, 0.00)",
-            "frame" : {
-              "y" : "45",
-              "x" : "200",
-              "width" : "60",
-              "height" : "60"
-            },
-            "badgeBGColor" : "rgba(255, 255, 255, 0.00)",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "type" : "AppIcon",
-            "bundleID" : "com.apple.tv",
-            "alpha" : "1",
-            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-            "badgeImageX" : "0",
-            "badgeImage" : "none"
-          }
-        },
-        "blurAlpha" : "0",
-        "cornerRadius" : "150",
-        "type" : "UIView",
-        "childorder" : "app6_1,app3_1,app7_1,app4_1,app1_1,inner_1,app8_1,app5_1,app2_1",
-        "rotate" : "0",
-        "blurIntensity" : "10",
-        "alpha" : "0",
-        "scale" : "0",
-        "gradientImage" : "none",
-        "borderColor" : "rgba(255, 255, 255, 0.30)",
-        "userInteraction" : "YES",
-        "actions" : "animation",
-        "animation" : {
-          "page2" : "{speed:0.5,rotate:180,wait:0.5,speed:0.4,alpha:0,",
-          "holder" : "{wait:0.9,alpha:1}"
-        },
-        "blurColor" : "dark"
-      },
-      "battery_1" : {
-        "borderColor" : "rgba(255,255,255,1)",
-        "textStyle" : "none",
-        "textAlignment" : "NSTextAlignmentCenter",
-        "frame" : {
-          "y" : "center",
-          "x" : "center",
-          "width" : "150",
-          "height" : "40"
-        },
-        "kerning" : "0",
-        "backgroundColor" : "rgba(255,255,255,0)",
-        "dataAttr" : "none",
-        "textColor" : "rgba(100, 196, 102, 1.00)",
-        "type" : "UILabel",
-        "fontColorAttr" : "none",
-        "numberOfLines" : "1",
-        "data" : "[batterypercent]",
-        "borderWidth" : "0",
-        "gradientImage" : "none",
-        "fontSizeAttr" : "none",
-        "fontSize" : "40",
-        "fontName" : "Nunito-Bold.ttf",
-        "textShadow" : {
-          "y" : "3",
-          "radius" : "3",
-          "x" : "0",
-          "color" : "rgba(0,0,0,0)"
-        },
-        "fontNameAttr" : "none"
       },
       "clock" : {
         "boxShadow" : {
@@ -799,6 +555,250 @@
         "actions" : "none",
         "animation" : "none",
         "blurColor" : "dark"
+      },
+      "page2" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "frame" : {
+          "y" : "center",
+          "x" : "center",
+          "width" : "300",
+          "height" : "300"
+        },
+        "hideWhenPlaying" : "NO",
+        "borderWidth" : "4",
+        "backgroundColor" : "rgba(255,255,255,0.3)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "app6_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "190",
+              "x" : "40",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.shortcuts",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "none"
+          },
+          "app3_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "45",
+              "x" : "40",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.DocumentsApp",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "none"
+          },
+          "app7_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "190",
+              "x" : "200",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.tips",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "none"
+          },
+          "app4_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "center",
+              "x" : "230",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.calculator",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "none"
+          },
+          "app1_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "10",
+              "x" : "center",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.mobilephone",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "none"
+          },
+          "app8_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "230",
+              "x" : "center",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.Health",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "none"
+          },
+          "inner_1" : {
+            "ringBackground" : "YES",
+            "alpha" : "1",
+            "ringWidth" : "5",
+            "frame" : {
+              "y" : "center",
+              "x" : "center",
+              "width" : "100",
+              "height" : "50"
+            },
+            "ringColor" : "rgba(100, 196, 102, 1.00)",
+            "ringBackgroundColor" : "rgba(0, 0, 0, 0.19)",
+            "ringCap" : "round",
+            "type" : "CircleProgress",
+            "ringValue" : "batteryValue"
+          },
+          "app5_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "center",
+              "x" : "10",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.Maps",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "none"
+          },
+          "app2_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "45",
+              "x" : "200",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255, 255, 255, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.tv",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "150",
+        "type" : "UIView",
+        "childorder" : "app6_1,app3_1,app7_1,app4_1,app1_1,inner_1,app8_1,app5_1,app2_1",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "0",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.30)",
+        "userInteraction" : "YES",
+        "actions" : "animation",
+        "animation" : {
+          "page2" : "{speed:0.5,rotate:180,wait:0.5,speed:0.4,alpha:0,",
+          "holder" : "{wait:0.9,alpha:1}"
+        },
+        "blurColor" : "dark"
+      },
+      "battery_1" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "center",
+          "x" : "center",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(100, 196, 102, 1.00)",
+        "type" : "UILabel",
+        "fontColorAttr" : "none",
+        "numberOfLines" : "1",
+        "data" : "[batterypercent]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "40",
+        "fontName" : "Nunito-Bold.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none"
       }
     }
   }
