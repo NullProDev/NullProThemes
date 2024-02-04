@@ -1,0 +1,271 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "order" : [
+      "TimeBox",
+      "Widgets_Box"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "TimeBox" : {
+        "scale" : "0",
+        "borderColor" : "rgba(0, 0, 0, 0.30)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "250",
+          "x" : "center",
+          "width" : "175",
+          "height" : "250"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.50)",
+        "blurAlpha" : ".7",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "2",
+        "alpha" : "0.8",
+        "children" : {
+          "Hour" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "25",
+              "x" : "center",
+              "width" : "400",
+              "height" : "100"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "fontColorAttr" : "none",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "fontSize" : "100",
+            "fontName" : "Futura-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none"
+          },
+          "Minute" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "130",
+              "x" : "center",
+              "width" : "300",
+              "height" : "100"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "dataAttr" : "none",
+            "textColor" : "rgba(214, 214, 214, 0.50)",
+            "type" : "UILabel",
+            "fontColorAttr" : "none",
+            "numberOfLines" : "1",
+            "data" : "[minute]",
+            "borderWidth" : "0",
+            "gradientImage" : "lockwall.png",
+            "fontSizeAttr" : "none",
+            "fontSize" : "100",
+            "fontName" : "Futura-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "45",
+        "blurColor" : "dark",
+        "childorder" : "Minute,Hour"
+      },
+      "Widgets_Box" : {
+        "scale" : "0",
+        "borderColor" : "rgba(0, 0, 0, 0.30)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "560",
+          "x" : "center",
+          "width" : "350",
+          "height" : "155"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.50)",
+        "blurAlpha" : ".7",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "2",
+        "alpha" : "0.8",
+        "children" : {
+          "weathercont" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "frame" : {
+              "y" : "90",
+              "x" : "75",
+              "width" : "200",
+              "height" : "50"
+            },
+            "hideWhenPlaying" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Temp" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "12",
+                  "x" : "FR~",
+                  "width" : "70",
+                  "height" : "35"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "fontColorAttr" : "none",
+                "numberOfLines" : "1",
+                "data" : "[temperature]°",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "40",
+                "fontName" : "ArialRoundedMTBold",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none"
+              },
+              "WeatherIcon" : {
+                "frame" : {
+                  "y" : "-5",
+                  "x" : "0",
+                  "width" : "75",
+                  "height" : "75"
+                },
+                "forecast" : "none",
+                "type" : "WeatherIcon",
+                "iconSet" : "clima"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "Temp,WeatherIcon",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "animation" : "none",
+            "blurColor" : "dark"
+          },
+          "Date" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "10",
+              "x" : "center",
+              "width" : "400",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "fontColorAttr" : "none",
+            "numberOfLines" : "1",
+            "data" : "[day], [month] [dateordinal]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "fontSize" : "20",
+            "fontName" : "Arial-BoldMT",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none"
+          },
+          "WeekWidget" : {
+            "scale" : "1",
+            "textStyle" : "uppercase",
+            "frame" : {
+              "y" : "center",
+              "x" : "center",
+              "width" : "300",
+              "height" : "50"
+            },
+            "backgroundColor" : "rgba(0,0,0,0)",
+            "textColor" : "rgba(255,255,255,1)",
+            "type" : "WeekWidget",
+            "selectCornerRadius" : "15",
+            "fontSize" : "15",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontName" : "PingFangTC-Medium",
+            "cornerRadius" : "20",
+            "selectColor" : "rgba(255,255,255,1)"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "40",
+        "blurColor" : "dark",
+        "childorder" : "Date,WeekWidget,weathercont"
+      }
+    }
+  }
+}
