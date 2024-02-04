@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "button",
@@ -52,7 +52,7 @@
             "imageFolder" : "none"
           },
           "AlbumArtHolder" : {
-            "userInteraction" : "YES",
+            "blurColor" : "dark",
             "scale" : "0",
             "borderColor" : "rgba(255, 255, 255, 0.00)",
             "rotate" : "0",
@@ -96,9 +96,9 @@
                 "fontName" : "Helvetica",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "fontNameAttr" : "none"
               },
@@ -127,9 +127,9 @@
                 "fontName" : "Helvetica",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
                 "fontNameAttr" : "none"
               },
@@ -152,13 +152,13 @@
             },
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(153, 54, 34, 0.00)",
               "x" : "0",
-              "color" : "rgba(153, 54, 34, 0.00)"
+              "radius" : "3"
             },
             "cornerRadius" : "5",
             "childorder" : "Artist,songname,AlbumArt",
-            "blurColor" : "dark"
+            "userInteraction" : "YES"
           },
           "Label" : {
             "userInteraction" : "YES",
@@ -205,9 +205,9 @@
                 "fontName" : "Helvetica",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "fontNameAttr" : "none"
               },
@@ -268,14 +268,27 @@
                 "imageURL" : "Red.png",
                 "type" : "UIImageView",
                 "actions" : "animation"
+              },
+              "elapsed" : {
+                "gradientImage" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "300",
+                  "height" : "30"
+                },
+                "backColor" : "rgba(0, 0, 0, 0.00)",
+                "type" : "ElapsedBar",
+                "innerColor" : "rgba(0, 0, 0, 0.31)",
+                "radius" : "2.5"
               }
             },
-            "childorder" : "LabelName,Red,Yellow,Green",
+            "childorder" : "LabelName,Red,Yellow,Green,elapsed",
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "cornerRadius" : "0",
             "blurColor" : "dark"
@@ -317,9 +330,9 @@
           "blur" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "frame" : {
               "y" : "0",
@@ -349,16 +362,16 @@
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0, 0, 0, 0.00)",
           "x" : "0",
-          "color" : "rgba(0, 0, 0, 0.00)"
+          "radius" : "3"
         },
         "childorder" : "playpause,prev,next,AlbumArtHolder,Label,blur",
         "blurColor" : "dark",
         "cornerRadius" : "15"
       },
       "button" : {
-        "userInteraction" : "YES",
+        "childorder" : "none",
         "borderColor" : "rgba(255,255,255,0)",
         "scale" : "0",
         "rotate" : "0",
@@ -382,20 +395,20 @@
         "showWhenPlaying" : "NO",
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark",
-        "childorder" : "none"
+        "userInteraction" : "YES"
       },
       "time-datecontainer" : {
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "frame" : {
           "y" : "100",
@@ -433,9 +446,9 @@
             "fontName" : "DosisBold.ttf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none"
           },
@@ -464,9 +477,9 @@
             "fontName" : "Nunito-ExtraBold.ttf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none"
           },
@@ -495,9 +508,9 @@
             "fontName" : "DosisBold.ttf",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           }
