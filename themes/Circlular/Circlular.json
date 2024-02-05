@@ -8,6 +8,7 @@
       "userInteractionEnabled" : "NO"
     },
     "order" : [
+      "musicholder",
       "dock",
       "page2",
       "holder",
@@ -113,10 +114,10 @@
                   "music" : {
                     "pauseImage" : "none",
                     "frame" : {
-                      "y" : "-20",
-                      "x" : "-5",
-                      "width" : "70",
-                      "height" : "100"
+                      "y" : "center",
+                      "x" : "center",
+                      "width" : "60",
+                      "height" : "60"
                     },
                     "isAlbumArt" : "yes",
                     "contentMode" : "scaleAspectFit",
@@ -427,6 +428,106 @@
           "page2" : "{wait:0.9,alpha:1}",
           "battery" : "{speed:0.2,alpha:0,}"
         },
+        "blurColor" : "dark"
+      },
+      "musicholder" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "frame" : {
+          "y" : "620",
+          "x" : "center",
+          "width" : "370",
+          "height" : "180"
+        },
+        "hideWhenPlaying" : "NO",
+        "borderWidth" : "3",
+        "backgroundColor" : "rgba(255,255,255,0.3)",
+        "showWhenPlaying" : "YES",
+        "children" : {
+          "prev" : {
+            "pauseImage" : "backc.PNG",
+            "frame" : {
+              "y" : "10",
+              "x" : "100",
+              "width" : "50",
+              "height" : "50"
+            },
+            "isAlbumArt" : "0",
+            "contentMode" : "scaleAspectFit",
+            "animation" : "none",
+            "cornerRadius" : "0",
+            "imageURL" : "backc.PNG",
+            "type" : "UIImageView",
+            "actions" : "prevTrack",
+            "imageFolder" : "none"
+          },
+          "musicbar" : {
+            "radius" : "2.5",
+            "backColor" : "rgba(0, 0, 0, 0.10)",
+            "frame" : {
+              "y" : "65",
+              "x" : "center",
+              "width" : "250",
+              "height" : "5"
+            },
+            "borderWidth" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "type" : "ElapsedBar",
+            "gradientImage" : "none",
+            "innerColor" : "rgba(255,255,255,1.0)"
+          },
+          "post" : {
+            "pauseImage" : "nextc.PNG",
+            "frame" : {
+              "y" : "10",
+              "x" : "218",
+              "width" : "50",
+              "height" : "50"
+            },
+            "isAlbumArt" : "0",
+            "contentMode" : "scaleAspectFit",
+            "animation" : "none",
+            "cornerRadius" : "0",
+            "imageURL" : "nextc.PNG",
+            "type" : "UIImageView",
+            "actions" : "nextTrack",
+            "imageFolder" : "none"
+          },
+          "play" : {
+            "pauseImage" : "pausec.PNG",
+            "frame" : {
+              "y" : "10",
+              "x" : "center",
+              "width" : "50",
+              "height" : "50"
+            },
+            "isAlbumArt" : "0",
+            "contentMode" : "scaleAspectFit",
+            "animation" : "none",
+            "cornerRadius" : "0",
+            "imageURL" : "playc.PNG",
+            "type" : "UIImageView",
+            "actions" : "playMusic",
+            "imageFolder" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "50",
+        "type" : "UIView",
+        "childorder" : "musicbar,play,prev,post",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.30)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
         "blurColor" : "dark"
       },
       "clock" : {
