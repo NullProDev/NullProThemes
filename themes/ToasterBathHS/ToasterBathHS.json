@@ -3,14 +3,14 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
-      "x" : "0",
-      "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
     },
     "children" : {
       "mp" : {
-        "blurColor" : "dark",
+        "userInteraction" : "YES",
         "scale" : "0",
         "borderColor" : "rgba(255, 255, 255, 0.55)",
         "rotate" : "0",
@@ -61,17 +61,17 @@
             },
             "fontNameAttr" : "none"
           },
-          "AlbumArtHolder" : {
+          "nextHolder" : {
             "blurColor" : "dark",
             "scale" : "0",
-            "borderColor" : "rgba(255, 255, 255, 1.00)",
+            "borderColor" : "rgba(255,255,255,0)",
             "rotate" : "0",
-            "actions" : "none",
+            "actions" : "nextTrack",
             "frame" : {
-              "y" : "center",
-              "x" : "center",
-              "width" : "view_width",
-              "height" : "300"
+              "y" : "FB~",
+              "x" : "FR~10",
+              "width" : "20",
+              "height" : "45"
             },
             "backgroundColor" : "rgba(255, 255, 255, 0.00)",
             "blurAlpha" : "0",
@@ -82,7 +82,7 @@
             "alpha" : "1",
             "showWhenPlaying" : "NO",
             "children" : {
-              "albumart" : {
+              "nextButton" : {
                 "pauseImage" : "none",
                 "frame" : {
                   "y" : "0",
@@ -90,11 +90,11 @@
                   "width" : "view_width",
                   "height" : "view_height"
                 },
-                "isAlbumArt" : "yes",
+                "isAlbumArt" : "0",
                 "contentMode" : "scaleAspectFit",
                 "animation" : "none",
                 "cornerRadius" : "0",
-                "imageURL" : "cover.png",
+                "imageURL" : "nextc.PNG",
                 "type" : "UIImageView",
                 "actions" : "none"
               }
@@ -105,8 +105,8 @@
               "x" : "0",
               "color" : "rgba(0,0,0,0)"
             },
-            "childorder" : "albumart",
-            "cornerRadius" : "15",
+            "childorder" : "nextButton",
+            "cornerRadius" : "5",
             "userInteraction" : "YES"
           },
           "title" : {
@@ -141,7 +141,7 @@
             "fontNameAttr" : "none"
           },
           "gradient" : {
-            "blurColor" : "dark",
+            "cornerRadius" : "15",
             "scale" : "0",
             "borderColor" : "rgba(255, 255, 255, 0.00)",
             "rotate" : "0",
@@ -185,16 +185,11 @@
               "color" : "rgba(0,0,0,0)"
             },
             "childorder" : "albumart_1",
-            "cornerRadius" : "15",
+            "blurColor" : "dark",
             "userInteraction" : "YES"
           },
           "playHolder" : {
-            "boxShadow" : {
-              "y" : "3",
-              "radius" : "3",
-              "x" : "0",
-              "color" : "rgba(0,0,0,0)"
-            },
+            "blurColor" : "dark",
             "scale" : "0",
             "borderColor" : "rgba(255,255,255,0)",
             "rotate" : "0",
@@ -231,18 +226,18 @@
                 "actions" : "none"
               }
             },
-            "childorder" : "playButton",
-            "cornerRadius" : "5",
-            "blurColor" : "dark",
-            "userInteraction" : "YES"
-          },
-          "prevHolder" : {
             "boxShadow" : {
               "y" : "3",
               "radius" : "3",
               "x" : "0",
               "color" : "rgba(0,0,0,0)"
             },
+            "childorder" : "playButton",
+            "cornerRadius" : "5",
+            "userInteraction" : "YES"
+          },
+          "prevHolder" : {
+            "blurColor" : "dark",
             "scale" : "0",
             "borderColor" : "rgba(255,255,255,0)",
             "rotate" : "0",
@@ -279,27 +274,27 @@
                 "actions" : "none"
               }
             },
-            "childorder" : "prevButton",
-            "cornerRadius" : "5",
-            "blurColor" : "dark",
-            "userInteraction" : "YES"
-          },
-          "nextHolder" : {
             "boxShadow" : {
               "y" : "3",
               "radius" : "3",
               "x" : "0",
               "color" : "rgba(0,0,0,0)"
             },
+            "childorder" : "prevButton",
+            "cornerRadius" : "5",
+            "userInteraction" : "YES"
+          },
+          "AlbumArtHolder" : {
+            "userInteraction" : "YES",
             "scale" : "0",
-            "borderColor" : "rgba(255,255,255,0)",
+            "borderColor" : "rgba(255, 255, 255, 1.00)",
             "rotate" : "0",
-            "actions" : "nextTrack",
+            "actions" : "none",
             "frame" : {
-              "y" : "FB~",
-              "x" : "FR~10",
-              "width" : "20",
-              "height" : "45"
+              "y" : "center",
+              "x" : "center",
+              "width" : "view_width",
+              "height" : "300"
             },
             "backgroundColor" : "rgba(255, 255, 255, 0.00)",
             "blurAlpha" : "0",
@@ -310,7 +305,7 @@
             "alpha" : "1",
             "showWhenPlaying" : "NO",
             "children" : {
-              "nextButton" : {
+              "albumart" : {
                 "pauseImage" : "none",
                 "frame" : {
                   "y" : "0",
@@ -318,30 +313,35 @@
                   "width" : "view_width",
                   "height" : "view_height"
                 },
-                "isAlbumArt" : "0",
-                "contentMode" : "scaleAspectFit",
+                "isAlbumArt" : "yes",
+                "contentMode" : "scaleToFill",
                 "animation" : "none",
                 "cornerRadius" : "0",
-                "imageURL" : "nextc.PNG",
+                "imageURL" : "artworkdefault.png",
                 "type" : "UIImageView",
                 "actions" : "none"
               }
             },
-            "childorder" : "nextButton",
-            "cornerRadius" : "5",
-            "blurColor" : "dark",
-            "userInteraction" : "YES"
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "15",
+            "childorder" : "albumart",
+            "blurColor" : "dark"
           }
         },
         "childorder" : "artist,nextHolder,title,playHolder,prevHolder,gradient,AlbumArtHolder",
+        "cornerRadius" : "15",
         "boxShadow" : {
           "y" : "3",
           "radius" : "3",
           "x" : "0",
           "color" : "rgba(0,0,0,0)"
         },
-        "cornerRadius" : "15",
-        "userInteraction" : "YES"
+        "blurColor" : "dark"
       }
     }
   }
