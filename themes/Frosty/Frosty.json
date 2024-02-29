@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "userInteractionEnabled" : "NO",
       "x" : "0",
       "width" : "screen_width",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "height" : "screen_height"
     },
     "order" : [
       "bgblur",
@@ -19,11 +19,11 @@
       "datecont" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "animation" : "none",
+        "blurColor" : "light",
         "frame" : {
           "y" : "445",
           "x" : "center",
@@ -38,9 +38,9 @@
           "date" : {
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -79,85 +79,18 @@
         "gradientImage" : "none",
         "cutWithView" : "none",
         "borderColor" : "rgba(255,255,255,0)",
+        "animation" : "none",
         "userInteraction" : "YES",
-        "actions" : "none",
-        "blurColor" : "light"
-      },
-      "timecont" : {
-        "boxShadow" : {
-          "y" : "3",
-          "color" : "rgba(0,0,0,0)",
-          "x" : "0",
-          "radius" : "3"
-        },
-        "blurColor" : "light",
-        "frame" : {
-          "y" : "150",
-          "x" : "center",
-          "width" : "90",
-          "height" : "30"
-        },
-        "showWhenCharging" : "NO",
-        "borderWidth" : "0",
-        "backgroundColor" : "rgba(255, 255, 255, 0.30)",
-        "showWhenPlaying" : "NO",
-        "children" : {
-          "time" : {
-            "textShadow" : {
-              "y" : "3",
-              "color" : "rgba(0,0,0,0)",
-              "x" : "0",
-              "radius" : "3"
-            },
-            "fontNameAttr" : "none",
-            "frame" : {
-              "y" : "0",
-              "x" : "center",
-              "width" : "view_width",
-              "height" : "35"
-            },
-            "fontName" : "Yikes_medium.ttf",
-            "fontColorAttr" : "none",
-            "dataAttr" : "none",
-            "textColor" : "rgba(255,255,255,1.0)",
-            "borderWidth" : "0",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "textAlignment" : "NSTextAlignmentCenter",
-            "type" : "UILabel",
-            "alpha" : "1",
-            "fontSize" : "20",
-            "gradientImage" : "none",
-            "fontSizeAttr" : "none",
-            "textStyle" : "none",
-            "kerning" : "0",
-            "borderColor" : "rgba(255,255,255,1)",
-            "data" : "[hour]:[minute]",
-            "numberOfLines" : "1"
-          }
-        },
-        "blurAlpha" : ".3",
-        "cornerRadius" : "15",
-        "type" : "UIView",
-        "childorder" : "time",
-        "rotate" : "0",
-        "blurIntensity" : "10",
-        "alpha" : "1",
-        "scale" : "0",
-        "gradientImage" : "none",
-        "cutWithView" : "none",
-        "borderColor" : "rgba(255,255,255,0)",
-        "userInteraction" : "YES",
-        "actions" : "none",
-        "animation" : "none"
+        "actions" : "none"
       },
       "bgblur" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "animation" : "none",
         "frame" : {
           "y" : "0",
           "x" : "center",
@@ -169,32 +102,14 @@
         "backgroundColor" : "rgba(255, 255, 255, 0.00)",
         "showWhenPlaying" : "NO",
         "children" : {
-          "background" : {
-            "pauseImage" : "none",
-            "frame" : {
-              "y" : "0",
-              "x" : "center",
-              "width" : "screen_width",
-              "height" : "screen_height"
-            },
-            "isAlbumArt" : "yes",
-            "contentMode" : "scaleToFill",
-            "maskURL" : "none",
-            "cornerRadius" : "0",
-            "animation" : "none",
-            "imageURL" : "",
-            "type" : "UIImageView",
-            "actions" : "none",
-            "imageFolder" : "none"
-          },
           "bginnerblur" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "blurColor" : "dark",
+            "animation" : "none",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -218,7 +133,25 @@
             "borderColor" : "rgba(255,255,255,0)",
             "userInteraction" : "YES",
             "actions" : "none",
-            "animation" : "none"
+            "blurColor" : "dark"
+          },
+          "background" : {
+            "pauseImage" : "none",
+            "frame" : {
+              "y" : "0",
+              "x" : "center",
+              "width" : "screen_width",
+              "height" : "screen_height"
+            },
+            "isAlbumArt" : "yes",
+            "contentMode" : "scaleToFill",
+            "maskURL" : "none",
+            "cornerRadius" : "0",
+            "animation" : "none",
+            "imageURL" : "",
+            "type" : "UIImageView",
+            "actions" : "none",
+            "imageFolder" : "none"
           }
         },
         "blurAlpha" : "0",
@@ -234,9 +167,9 @@
         "borderColor" : "rgba(255,255,255,0)",
         "userInteraction" : "YES",
         "actions" : "none",
-        "animation" : "none"
+        "blurColor" : "dark"
       },
-      "music" : {
+      "musicconts" : {
         "boxShadow" : {
           "y" : "3",
           "color" : "rgba(0,0,0,0)",
@@ -245,10 +178,408 @@
         },
         "blurColor" : "dark",
         "frame" : {
+          "y" : "600",
+          "x" : "center",
+          "width" : "300",
+          "height" : "150"
+        },
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "playp" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "actions" : "playMusic",
+            "frame" : {
+              "y" : "center",
+              "x" : "center",
+              "width" : "120",
+              "height" : "120"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "playimg" : {
+                "pauseImage" : "pause.png",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "20",
+                  "height" : "20"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "maskURL" : "none",
+                "cornerRadius" : "0",
+                "animation" : "none",
+                "imageURL" : "play.png",
+                "type" : "UIImageView",
+                "actions" : "",
+                "imageFolder" : "none"
+              },
+              "circle" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(255, 255, 255, 1.00)",
+                  "x" : "0",
+                  "radius" : "5"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "80",
+                  "height" : "80"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "2",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "40",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 1.00)",
+                "animation" : "none",
+                "userInteraction" : "YES",
+                "actions" : "playMusic"
+              },
+              "innercircle" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "56",
+                  "height" : "56"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "4",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "28",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 1.00)",
+                "animation" : "none",
+                "userInteraction" : "YES",
+                "actions" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "60",
+            "type" : "UIView",
+            "childorder" : "circle,innercircle,playimg",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "animation" : "none",
+            "userInteraction" : "YES",
+            "blurColor" : "dark"
+          },
+          "next" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "actions" : "none",
+            "frame" : {
+              "y" : "30",
+              "x" : "FR~45",
+              "width" : "70",
+              "height" : "70"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "playimg_1_1" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "13",
+                  "height" : "13"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "maskURL" : "none",
+                "cornerRadius" : "0",
+                "animation" : "none",
+                "imageURL" : "next2.png",
+                "type" : "UIImageView",
+                "actions" : "playMusic",
+                "imageFolder" : "none"
+              },
+              "circle_1_1" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "radius" : "5",
+                  "x" : "0",
+                  "color" : "rgba(255, 255, 255, 1.00)"
+                },
+                "animation" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "48",
+                  "height" : "48"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "1",
+                "backgroundColor" : "rgba(254, 252, 224, 0.00)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+
+                },
+                "blurAlpha" : "0",
+                "cornerRadius" : "24",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "nextTrack",
+                "userInteraction" : "YES",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 1.00)",
+                "blurColor" : "dark"
+              },
+              "innercircle_1_1" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "userInteraction" : "YES",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "34",
+                  "height" : "34"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "2",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "17",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "none",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 1.00)",
+                "animation" : "none",
+                "blurColor" : "dark"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "playimg_1_1,circle_1_1,innercircle_1_1",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "1",
+            "gradientImage" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "animation" : "none",
+            "userInteraction" : "YES",
+            "blurColor" : "dark"
+          },
+          "prev" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "actions" : "none",
+            "frame" : {
+              "y" : "30",
+              "x" : "45",
+              "width" : "70",
+              "height" : "70"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "circle_1" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "color" : "rgba(255, 255, 255, 1.00)",
+                  "x" : "0",
+                  "radius" : "5"
+                },
+                "userInteraction" : "YES",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "48",
+                  "height" : "48"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "1",
+                "backgroundColor" : "rgba(254, 252, 224, 0.00)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+
+                },
+                "blurAlpha" : "0",
+                "cornerRadius" : "24",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "prevTrack",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 1.00)",
+                "animation" : "none",
+                "blurColor" : "dark"
+              },
+              "innercircle_1" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "34",
+                  "height" : "34"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "2",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "17",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "none",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 1.00)",
+                "animation" : "none",
+                "userInteraction" : "YES"
+              },
+              "playimg_1" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "13",
+                  "height" : "13"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "maskURL" : "none",
+                "cornerRadius" : "0",
+                "animation" : "none",
+                "imageURL" : "previous.png",
+                "type" : "UIImageView",
+                "actions" : "playMusic",
+                "imageFolder" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "circle_1,playimg_1,innercircle_1",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "1",
+            "gradientImage" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "animation" : "none",
+            "userInteraction" : "YES",
+            "blurColor" : "dark"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "prev,next,playp",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "actions" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "animation" : "none",
+        "userInteraction" : "YES"
+      },
+      "music" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "blurColor" : "dark",
+        "frame" : {
           "y" : "200",
           "x" : "center",
           "width" : "view_width",
-          "height" : "350"
+          "height" : "400"
         },
         "showWhenCharging" : "NO",
         "borderWidth" : "0",
@@ -258,13 +589,13 @@
           "title" : {
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none",
             "frame" : {
-              "y" : "FB~25",
+              "y" : "FB~75",
               "x" : "center",
               "width" : "screen_width",
               "height" : "40"
@@ -290,9 +621,9 @@
           "container" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "blurColor" : "dark",
             "frame" : {
@@ -309,11 +640,11 @@
               "border" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
-                "animation" : "none",
+                "blurColor" : "light",
                 "frame" : {
                   "y" : "5",
                   "x" : "5",
@@ -355,18 +686,18 @@
                 "gradientImage" : "none",
                 "cutWithView" : "none",
                 "borderColor" : "rgba(255, 255, 255, 0.00)",
+                "animation" : "none",
                 "userInteraction" : "YES",
-                "actions" : "none",
-                "blurColor" : "light"
+                "actions" : "none"
               },
               "shadow" : {
                 "boxShadow" : {
                   "y" : "0",
-                  "radius" : "5",
+                  "color" : "rgba(0, 0, 0, 0.42)",
                   "x" : "0",
-                  "color" : "rgba(0, 0, 0, 0.42)"
+                  "radius" : "5"
                 },
-                "animation" : "none",
+                "blurColor" : "light",
                 "frame" : {
                   "y" : "FB~5",
                   "x" : "FR~5",
@@ -381,11 +712,11 @@
                   "blur" : {
                     "boxShadow" : {
                       "y" : "3",
-                      "radius" : "3",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "3"
                     },
-                    "animation" : "none",
+                    "blurColor" : "light",
                     "frame" : {
                       "y" : "center",
                       "x" : "center",
@@ -407,9 +738,9 @@
                     "gradientImage" : "none",
                     "cutWithView" : "none",
                     "borderColor" : "rgba(255,255,255,0)",
+                    "animation" : "none",
                     "userInteraction" : "YES",
-                    "actions" : "none",
-                    "blurColor" : "light"
+                    "actions" : "none"
                   }
                 },
                 "blurAlpha" : "0",
@@ -423,9 +754,9 @@
                 "gradientImage" : "none",
                 "cutWithView" : "none",
                 "borderColor" : "rgba(255, 255, 255, 0.00)",
+                "animation" : "none",
                 "userInteraction" : "YES",
-                "actions" : "none",
-                "blurColor" : "light"
+                "actions" : "none"
               }
             },
             "blurAlpha" : "0",
@@ -437,22 +768,105 @@
             "alpha" : "1",
             "scale" : "0",
             "gradientImage" : "none",
+            "actions" : "openPlayingMusic",
             "cutWithView" : "none",
             "borderColor" : "rgba(255,255,255,0)",
             "animation" : "none",
+            "userInteraction" : "YES"
+          },
+          "elapsedbg" : {
+            "boxShadow" : {
+              "y" : "0",
+              "color" : "rgba(0, 0, 0, 0.42)",
+              "x" : "0",
+              "radius" : "5"
+            },
+            "actions" : "none",
+            "frame" : {
+              "y" : "FB~20",
+              "x" : "center",
+              "width" : "250",
+              "height" : "20"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "blur_1" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "blurColor" : "light",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "view_width",
+                  "height" : "view_height"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0.3)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0.3",
+                "cornerRadius" : "10",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "none",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255,255,255,0)",
+                "animation" : "none",
+                "userInteraction" : "YES"
+              },
+              "time_elapsed" : {
+                "radius" : "10",
+                "backColor" : "rgba(0, 0, 0, 0.00)",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "250",
+                  "height" : "20"
+                },
+                "borderWidth" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "type" : "ElapsedBar",
+                "gradientImage" : "none",
+                "innerColor" : "rgba(255,255,255,1.0)"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "10",
+            "type" : "UIView",
+            "childorder" : "blur_1,time_elapsed",
+            "rotate" : "0",
+            "blurIntensity" : "15",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.00)",
+            "animation" : "none",
             "userInteraction" : "YES",
-            "actions" : "openPlayingMusic"
+            "blurColor" : "light"
           },
           "artist" : {
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none",
             "frame" : {
-              "y" : "FB~",
+              "y" : "FB~50",
               "x" : "center",
               "width" : "screen_width",
               "height" : "40"
@@ -479,399 +893,7 @@
         "blurAlpha" : "0",
         "cornerRadius" : "5",
         "type" : "UIView",
-        "childorder" : "artist,title,container",
-        "rotate" : "0",
-        "blurIntensity" : "10",
-        "alpha" : "1",
-        "scale" : "0",
-        "gradientImage" : "none",
-        "cutWithView" : "none",
-        "borderColor" : "rgba(255,255,255,0)",
-        "userInteraction" : "YES",
-        "actions" : "none",
-        "animation" : "none"
-      },
-      "musicconts" : {
-        "boxShadow" : {
-          "y" : "3",
-          "radius" : "3",
-          "x" : "0",
-          "color" : "rgba(0,0,0,0)"
-        },
-        "blurColor" : "dark",
-        "frame" : {
-          "y" : "600",
-          "x" : "center",
-          "width" : "300",
-          "height" : "150"
-        },
-        "showWhenCharging" : "NO",
-        "borderWidth" : "0",
-        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-        "showWhenPlaying" : "NO",
-        "children" : {
-          "playp" : {
-            "boxShadow" : {
-              "y" : "3",
-              "radius" : "3",
-              "x" : "0",
-              "color" : "rgba(0,0,0,0)"
-            },
-            "animation" : "none",
-            "frame" : {
-              "y" : "center",
-              "x" : "center",
-              "width" : "100",
-              "height" : "100"
-            },
-            "showWhenCharging" : "NO",
-            "borderWidth" : "0",
-            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-            "showWhenPlaying" : "NO",
-            "children" : {
-              "playimg" : {
-                "pauseImage" : "pause.png",
-                "frame" : {
-                  "y" : "center",
-                  "x" : "center",
-                  "width" : "20",
-                  "height" : "20"
-                },
-                "isAlbumArt" : "0",
-                "contentMode" : "scaleAspectFit",
-                "maskURL" : "none",
-                "cornerRadius" : "0",
-                "animation" : "none",
-                "imageURL" : "play.png",
-                "type" : "UIImageView",
-                "actions" : "",
-                "imageFolder" : "none"
-              },
-              "circle" : {
-                "boxShadow" : {
-                  "y" : "3",
-                  "radius" : "5",
-                  "x" : "0",
-                  "color" : "rgba(255, 255, 255, 1.00)"
-                },
-                "animation" : "none",
-                "frame" : {
-                  "y" : "center",
-                  "x" : "center",
-                  "width" : "80",
-                  "height" : "80"
-                },
-                "showWhenCharging" : "NO",
-                "borderWidth" : "2",
-                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-                "showWhenPlaying" : "NO",
-                "blurAlpha" : "0",
-                "cornerRadius" : "40",
-                "type" : "UIView",
-                "childorder" : "none",
-                "rotate" : "0",
-                "blurIntensity" : "10",
-                "alpha" : "1",
-                "scale" : "0",
-                "gradientImage" : "none",
-                "cutWithView" : "none",
-                "borderColor" : "rgba(255, 255, 255, 1.00)",
-                "userInteraction" : "YES",
-                "actions" : "playMusic",
-                "blurColor" : "dark"
-              },
-              "innercircle" : {
-                "boxShadow" : {
-                  "y" : "3",
-                  "radius" : "3",
-                  "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
-                },
-                "animation" : "none",
-                "frame" : {
-                  "y" : "center",
-                  "x" : "center",
-                  "width" : "56",
-                  "height" : "56"
-                },
-                "showWhenCharging" : "NO",
-                "borderWidth" : "4",
-                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-                "showWhenPlaying" : "NO",
-                "blurAlpha" : "0",
-                "cornerRadius" : "28",
-                "type" : "UIView",
-                "childorder" : "none",
-                "rotate" : "0",
-                "blurIntensity" : "10",
-                "alpha" : "1",
-                "scale" : "0",
-                "gradientImage" : "none",
-                "cutWithView" : "none",
-                "borderColor" : "rgba(255, 255, 255, 1.00)",
-                "userInteraction" : "YES",
-                "actions" : "none",
-                "blurColor" : "dark"
-              }
-            },
-            "blurAlpha" : "0",
-            "cornerRadius" : "5",
-            "type" : "UIView",
-            "childorder" : "circle,innercircle,playimg",
-            "rotate" : "0",
-            "blurIntensity" : "10",
-            "alpha" : "1",
-            "scale" : "0",
-            "gradientImage" : "none",
-            "cutWithView" : "none",
-            "borderColor" : "rgba(255,255,255,0)",
-            "userInteraction" : "YES",
-            "actions" : "playMusic",
-            "blurColor" : "dark"
-          },
-          "next" : {
-            "boxShadow" : {
-              "y" : "3",
-              "radius" : "3",
-              "x" : "0",
-              "color" : "rgba(0,0,0,0)"
-            },
-            "animation" : "none",
-            "frame" : {
-              "y" : "10",
-              "x" : "FR~5",
-              "width" : "130",
-              "height" : "130"
-            },
-            "showWhenCharging" : "NO",
-            "borderWidth" : "0",
-            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-            "showWhenPlaying" : "NO",
-            "children" : {
-              "playimg_1_1" : {
-                "pauseImage" : "none",
-                "frame" : {
-                  "y" : "center",
-                  "x" : "center",
-                  "width" : "20",
-                  "height" : "20"
-                },
-                "isAlbumArt" : "0",
-                "contentMode" : "scaleAspectFit",
-                "maskURL" : "none",
-                "cornerRadius" : "0",
-                "animation" : "none",
-                "imageURL" : "next2.png",
-                "type" : "UIImageView",
-                "actions" : "playMusic",
-                "imageFolder" : "none"
-              },
-              "circle_1_1" : {
-                "boxShadow" : {
-                  "y" : "3",
-                  "radius" : "5",
-                  "x" : "0",
-                  "color" : "rgba(255, 255, 255, 1.00)"
-                },
-                "userInteraction" : "YES",
-                "frame" : {
-                  "y" : "center",
-                  "x" : "center",
-                  "width" : "80",
-                  "height" : "80"
-                },
-                "showWhenCharging" : "NO",
-                "borderWidth" : "2",
-                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-                "showWhenPlaying" : "NO",
-                "blurAlpha" : "0",
-                "cornerRadius" : "40",
-                "type" : "UIView",
-                "childorder" : "none",
-                "rotate" : "0",
-                "blurIntensity" : "10",
-                "alpha" : "1",
-                "scale" : "0",
-                "gradientImage" : "none",
-                "actions" : "nextTrack",
-                "cutWithView" : "none",
-                "borderColor" : "rgba(255, 255, 255, 1.00)",
-                "animation" : "none",
-                "blurColor" : "dark"
-              },
-              "innercircle_1_1" : {
-                "boxShadow" : {
-                  "y" : "3",
-                  "radius" : "3",
-                  "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
-                },
-                "actions" : "none",
-                "frame" : {
-                  "y" : "center",
-                  "x" : "center",
-                  "width" : "56",
-                  "height" : "56"
-                },
-                "showWhenCharging" : "NO",
-                "borderWidth" : "4",
-                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-                "showWhenPlaying" : "NO",
-                "blurAlpha" : "0",
-                "cornerRadius" : "28",
-                "type" : "UIView",
-                "childorder" : "none",
-                "rotate" : "0",
-                "blurIntensity" : "10",
-                "alpha" : "1",
-                "scale" : "0",
-                "gradientImage" : "none",
-                "cutWithView" : "none",
-                "borderColor" : "rgba(255, 255, 255, 1.00)",
-                "animation" : "none",
-                "userInteraction" : "YES",
-                "blurColor" : "dark"
-              }
-            },
-            "blurAlpha" : "0",
-            "cornerRadius" : "5",
-            "type" : "UIView",
-            "childorder" : "playimg_1_1,circle_1_1,innercircle_1_1",
-            "rotate" : "0",
-            "blurIntensity" : "10",
-            "alpha" : "1",
-            "scale" : ".6",
-            "gradientImage" : "none",
-            "cutWithView" : "none",
-            "borderColor" : "rgba(255,255,255,0)",
-            "userInteraction" : "YES",
-            "actions" : "none",
-            "blurColor" : "dark"
-          },
-          "prev" : {
-            "boxShadow" : {
-              "y" : "3",
-              "radius" : "3",
-              "x" : "0",
-              "color" : "rgba(0,0,0,0)"
-            },
-            "animation" : "none",
-            "frame" : {
-              "y" : "10",
-              "x" : "35",
-              "width" : "130",
-              "height" : "130"
-            },
-            "showWhenCharging" : "NO",
-            "borderWidth" : "0",
-            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-            "showWhenPlaying" : "NO",
-            "children" : {
-              "circle_1" : {
-                "boxShadow" : {
-                  "y" : "3",
-                  "color" : "rgba(255, 255, 255, 1.00)",
-                  "x" : "0",
-                  "radius" : "5"
-                },
-                "actions" : "prevTrack",
-                "frame" : {
-                  "y" : "center",
-                  "x" : "center",
-                  "width" : "80",
-                  "height" : "80"
-                },
-                "showWhenCharging" : "NO",
-                "borderWidth" : "2",
-                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-                "showWhenPlaying" : "NO",
-                "blurAlpha" : "0",
-                "cornerRadius" : "40",
-                "type" : "UIView",
-                "childorder" : "none",
-                "rotate" : "0",
-                "blurIntensity" : "10",
-                "alpha" : "1",
-                "scale" : "0",
-                "gradientImage" : "none",
-                "cutWithView" : "none",
-                "borderColor" : "rgba(255, 255, 255, 1.00)",
-                "animation" : "none",
-                "userInteraction" : "YES",
-                "blurColor" : "dark"
-              },
-              "innercircle_1" : {
-                "boxShadow" : {
-                  "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
-                  "x" : "0",
-                  "radius" : "3"
-                },
-                "blurColor" : "dark",
-                "frame" : {
-                  "y" : "center",
-                  "x" : "center",
-                  "width" : "56",
-                  "height" : "56"
-                },
-                "showWhenCharging" : "NO",
-                "borderWidth" : "4",
-                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-                "showWhenPlaying" : "NO",
-                "blurAlpha" : "0",
-                "cornerRadius" : "28",
-                "type" : "UIView",
-                "childorder" : "none",
-                "rotate" : "0",
-                "blurIntensity" : "10",
-                "alpha" : "1",
-                "scale" : "0",
-                "gradientImage" : "none",
-                "cutWithView" : "none",
-                "borderColor" : "rgba(255, 255, 255, 1.00)",
-                "animation" : "none",
-                "userInteraction" : "YES",
-                "actions" : "none"
-              },
-              "playimg_1" : {
-                "pauseImage" : "none",
-                "frame" : {
-                  "y" : "center",
-                  "x" : "center",
-                  "width" : "20",
-                  "height" : "20"
-                },
-                "isAlbumArt" : "0",
-                "contentMode" : "scaleAspectFit",
-                "maskURL" : "none",
-                "cornerRadius" : "0",
-                "animation" : "none",
-                "imageURL" : "previous.png",
-                "type" : "UIImageView",
-                "actions" : "playMusic",
-                "imageFolder" : "none"
-              }
-            },
-            "blurAlpha" : "0",
-            "cornerRadius" : "5",
-            "type" : "UIView",
-            "childorder" : "circle_1,innercircle_1,playimg_1",
-            "rotate" : "0",
-            "blurIntensity" : "10",
-            "alpha" : "1",
-            "scale" : ".6",
-            "gradientImage" : "none",
-            "cutWithView" : "none",
-            "borderColor" : "rgba(255,255,255,0)",
-            "userInteraction" : "YES",
-            "actions" : "none",
-            "blurColor" : "dark"
-          }
-        },
-        "blurAlpha" : "0",
-        "cornerRadius" : "5",
-        "type" : "UIView",
-        "childorder" : "playp,prev,next",
+        "childorder" : "artist,title,container,elapsedbg",
         "rotate" : "0",
         "blurIntensity" : "10",
         "alpha" : "1",
@@ -882,6 +904,73 @@
         "animation" : "none",
         "userInteraction" : "YES",
         "actions" : "none"
+      },
+      "timecont" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "animation" : "none",
+        "frame" : {
+          "y" : "150",
+          "x" : "center",
+          "width" : "90",
+          "height" : "30"
+        },
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.30)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "time" : {
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "0",
+              "x" : "center",
+              "width" : "view_width",
+              "height" : "35"
+            },
+            "fontName" : "Yikes_medium.ttf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "20",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[hour]:[minute]",
+            "numberOfLines" : "1"
+          }
+        },
+        "blurAlpha" : ".3",
+        "cornerRadius" : "15",
+        "type" : "UIView",
+        "childorder" : "time",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "blurColor" : "light"
       }
     }
   }
