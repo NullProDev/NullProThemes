@@ -17,9 +17,9 @@
           "color" : "rgba(0,0,0,0)"
         },
         "frame" : {
-          "y" : "FB~",
+          "y" : "FB~5",
           "x" : "center",
-          "width" : "347",
+          "width" : "340",
           "height" : "137"
         },
         "hideWhenPlaying" : "NO",
@@ -38,7 +38,7 @@
             "isAlbumArt" : "yes",
             "contentMode" : "scaleAspectFit",
             "animation" : "none",
-            "cornerRadius" : "0",
+            "cornerRadius" : "10",
             "imageURL" : "IMG_0311.PNG",
             "type" : "UIImageView",
             "actions" : "none",
@@ -63,7 +63,7 @@
             "showWhenPlaying" : "NO",
             "children" : {
               "pauseplay" : {
-                "pauseImage" : "IMG_0.PNG",
+                "pauseImage" : "pause2.png",
                 "frame" : {
                   "y" : "0",
                   "x" : "center",
@@ -74,7 +74,7 @@
                 "contentMode" : "scaleAspectFit",
                 "animation" : "none",
                 "cornerRadius" : "0",
-                "imageURL" : "Play.PNG",
+                "imageURL" : "play2.png",
                 "type" : "UIImageView",
                 "actions" : "playMusic",
                 "imageFolder" : "none"
@@ -91,7 +91,7 @@
                 "contentMode" : "scaleAspectFit",
                 "animation" : "none",
                 "cornerRadius" : "0",
-                "imageURL" : "Next.PNG",
+                "imageURL" : "nextc.PNG",
                 "type" : "UIImageView",
                 "actions" : "nextTrack",
                 "imageFolder" : "none"
@@ -108,7 +108,7 @@
                 "contentMode" : "scaleAspectFit",
                 "animation" : "none",
                 "cornerRadius" : "0",
-                "imageURL" : "Prev2.png",
+                "imageURL" : "backc.PNG",
                 "type" : "UIImageView",
                 "actions" : "prevTrack",
                 "imageFolder" : "none"
@@ -162,11 +162,11 @@
           "textelapsed" : {
             "borderColor" : "rgba(255,255,255,1)",
             "textStyle" : "none",
-            "textAlignment" : "NSTextAlignmentCenter",
+            "textAlignment" : "NSTextAlignmentLeft",
             "frame" : {
               "y" : "FB~",
               "x" : "0",
-              "width" : "30",
+              "width" : "80",
               "height" : "35"
             },
             "kerning" : "0",
@@ -208,11 +208,11 @@
           "duration" : {
             "borderColor" : "rgba(255,255,255,1)",
             "textStyle" : "none",
-            "textAlignment" : "NSTextAlignmentCenter",
+            "textAlignment" : "NSTextAlignmentRight",
             "frame" : {
               "y" : "FB~",
               "x" : "FR~",
-              "width" : "30",
+              "width" : "80",
               "height" : "35"
             },
             "kerning" : "0",
@@ -259,7 +259,7 @@
         "frame" : {
           "y" : "300",
           "x" : "center",
-          "width" : "200",
+          "width" : "screen_width",
           "height" : "40"
         },
         "kerning" : "0",
